@@ -58,7 +58,7 @@ export default function LandingPage() {
       
       <div id="about" data-section="about">
         <AboutFeature
-          title="We believe in creating unforgettable dining experiences that celebrate the rich culinary traditions of Italy while embracing innovation and excellence."
+          title="We believe in creating a remarkable dining experiences that celebrate the rich culinary traditions of Italy while embracing innovation and excellence."
           features={[
             {
               "icon": ChefHat,
@@ -103,7 +103,7 @@ export default function LandingPage() {
             {
               "title": "Premium Ingredients",
               "description": "We source only the finest ingredients - San Marzano tomatoes, Parmigiano-Reggiano, fresh herbs, and extra virgin olive oil.",
-              "imageSrc": "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXXWBwMZaYtk/uploaded-1763632246985-g3z4ljad.jpg",
+              "imageSrc": "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXXWBwMZaYtk/uploaded-1763650311627-xjkdanpz.jpg",
               "imageAlt": "Fresh Italian ingredients"
             },
             {
