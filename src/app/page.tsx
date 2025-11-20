@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
@@ -11,7 +11,7 @@ import TeamCardOne from '@/components/sections/team/TeamCardOne';
 import TestimonialCardThree from '@/components/sections/testimonial/TestimonialCardThree';
 import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FooterBase from '@/components/sections/footer/FooterBase';
-import { ChefHat, Grape, Utensils, Wine, Star, Crown, MenuBook, Sun, Users, MessageCircle, Calendar, User } from "lucide-react";
+import { ChefHat, Grape, Utensils, Wine, Star, Crown, Menu, Sun, Users, MessageCircle, Calendar, User } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -33,7 +33,7 @@ export default function LandingPage() {
             {"name": "Menu", "id": "menu"},
             {"name": "About", "id": "about"},
             {"name": "Team", "id": "team"},
-            {"name": "Reviews", "id": "reviews"}
+            {"name": "Reviews", "id": "testimonials"}
           ]}
           brandName="Amore Mio"
           button={{
@@ -162,7 +162,7 @@ export default function LandingPage() {
           title="Dining Experiences"
           description="Choose from our carefully curated dining packages for every occasion"
           tag="Menu Options"
-          tagIcon={MenuBook}
+          tagIcon={Menu}
           textboxLayout="default"
           animationType="reveal-blur"
           plans={[
