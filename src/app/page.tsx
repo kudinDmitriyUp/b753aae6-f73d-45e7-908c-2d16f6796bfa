@@ -92,7 +92,7 @@ export default function LandingPage() {
           tagIcon={Star}
           textboxLayout="default"
           gridVariant="uniform-all-items-equal"
-          animationType="reveal-blur"
+          animationType="slide-up"
           features={[
             {
               "title": "Authentic Cuisine",
@@ -130,7 +130,7 @@ export default function LandingPage() {
           tagIcon={Crown}
           textboxLayout="default"
           gridVariant="uniform-all-items-equal"
-          animationType="reveal-blur"
+          animationType="slide-up"
           products={[
             {
               "id": "signature-pasta",
@@ -164,7 +164,7 @@ export default function LandingPage() {
           tag="Menu Options"
           tagIcon={Menu}
           textboxLayout="default"
-          animationType="reveal-blur"
+          animationType="slide-up"
           plans={[
             {
               "id": "casual-dining",
@@ -219,7 +219,7 @@ export default function LandingPage() {
           tagIcon={Users}
           textboxLayout="default"
           gridVariant="uniform-all-items-equal"
-          animationType="reveal-blur"
+          animationType="slide-up"
           members={[
             {
               "id": "chef-marco",
@@ -253,7 +253,7 @@ export default function LandingPage() {
           tag="Reviews"
           tagIcon={MessageCircle}
           textboxLayout="default"
-          animationType="reveal-blur"
+          animationType="slide-up"
           testimonials={[
             {
               "id": "maria-review",
